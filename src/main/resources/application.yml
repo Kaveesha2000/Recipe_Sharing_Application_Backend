@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/recipeSharing
+
+server:
+  port: 6065
+
+jwt:
+  expiration: 36000000 # 10 hours in milliseconds
